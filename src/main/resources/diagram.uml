@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="675.1494182900428" y="1107.0">com.anton.EEAWeb.repository.InquiryRepository</node>
+    <node x="2205.8476731601722" y="1374.0">com.anton.EEAWeb.service.EmployeeServiceImpl</node>
+    <node x="2785.8476731601722" y="1407.0">com.anton.EEAWeb.controller.EmployeeController</node>
+    <node x="879.1494182900428" y="1062.0">com.anton.EEAWeb.service.InquiryService</node>
+    <node x="1647.291666666666" y="1418.0">com.anton.EEAWeb.controller.FoodController</node>
+    <node x="1099.4166666666663" y="930.0">com.anton.EEAWeb.controller.HomeController</node>
+    <node x="655.583333333333" y="1418.0">com.anton.EEAWeb.service.InquiryServiceImpl</node>
+    <node x="2226.833333333333" y="0.0">com.anton.EEAWeb.model.Role</node>
+    <node x="0.0" y="1107.0">com.anton.EEAWeb.repository.ReservationRepository</node>
+    <node x="1381.416666666666" y="1107.0">com.anton.EEAWeb.repository.FoodRepository</node>
+    <node x="882.0" y="1650.0">com.anton.EEAWeb.controller.ManagerHomeController</node>
+    <node x="0.0" y="1650.0">com.anton.EEAWeb.config.WebSecurityConfig</node>
+    <node x="59.875" y="1429.0">com.anton.EEAWeb.service.ReservationServiceImpl</node>
+    <node x="2887.572375541125" y="1107.0">com.anton.EEAWeb.repository.RoleRepository</node>
+    <node x="1375.3476731601725" y="1407.0">com.anton.EEAWeb.service.FoodServiceImpl</node>
+    <node x="1900.291666666666" y="1451.0">com.anton.EEAWeb.service.EmployeeServiceDetailsImpl</node>
+    <node x="1342.4646239177482" y="313.0">com.anton.EEAWeb.model.Food</node>
+    <node x="3123.822375541125" y="1440.0">com.anton.EEAWeb.service.RoleServiceImpl</node>
+    <node x="376.0" y="1650.0">com.anton.EEAWeb.EeaWebApplication</node>
+    <node x="2209.833333333333" y="324.0">com.anton.EEAWeb.model.Employee</node>
+    <node x="2060.333333333333" y="1095.0">com.anton.EEAWeb.repository.EmployeeRepository</node>
+    <node x="3108.006290584415" y="1084.0">com.anton.EEAWeb.service.RoleService</node>
+    <node x="243.14136904761904" y="1073.0">com.anton.EEAWeb.service.ReservationService</node>
+    <node x="940.6666666666663" y="357.0">com.anton.EEAWeb.model.Inquiry</node>
+    <node x="2535.8476731601722" y="1440.0">com.anton.EEAWeb.validator.UserValidator</node>
+    <node x="605.0" y="1650.0">com.anton.EEAWeb.controller.ReceptionHomeController</node>
+    <node x="363.9166666666665" y="1407.0">com.anton.EEAWeb.controller.ReservationController</node>
+    <node x="959.4166666666663" y="1429.0">com.anton.EEAWeb.controller.InquiryController</node>
+    <node x="2388.958333333333" y="1040.0">com.anton.EEAWeb.service.EmployeeService</node>
+    <node x="1565.2744182900428" y="1051.0">com.anton.EEAWeb.service.FoodService</node>
+    <node x="1143.0" y="1650.0">com.anton.EEAWeb.controller.AdminHomeController</node>
+    <node x="730.0416666666665" y="289.0">com.anton.EEAWeb.model.Reservation</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.anton.EEAWeb.controller.HomeController" target="com.anton.EEAWeb.model.Inquiry">
+      <point x="-37.28571428571422" y="-192.0" />
+      <point x="1192.630952380952" y="860.0" />
+      <point x="1082.4166666666663" y="860.0" />
+      <point x="47.25" y="214.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.RoleServiceImpl" target="com.anton.EEAWeb.service.RoleService">
+      <point x="0.0" y="-49.5" />
+      <point x="3236.322375541125" y="1354.0" />
+      <point x="3276.756290584415" y="1354.0" />
+      <point x="56.25" y="38.0" />
+    </edge>
+    <edge source="com.anton.EEAWeb.controller.HomeController" target="com.anton.EEAWeb.model.Food">
+      <point x="37.28571428571422" y="-192.0" />
+      <point x="1267.2023809523805" y="860.0" />
+      <point x="1358.2146239177482" y="860.0" />
+      <point x="-78.75" y="258.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.controller.FoodController" target="com.anton.EEAWeb.model.Food">
+      <point x="58.25" y="-71.5" />
+      <point x="1822.041666666666" y="1354.0" />
+      <point x="1777.0976731601725" y="1354.0" />
+      <point x="1777.0976731601725" y="870.0" />
+      <point x="1515.7146239177482" y="870.0" />
+      <point x="78.75" y="258.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.EmployeeService" target="com.anton.EEAWeb.model.Employee">
+      <point x="0.0" y="-82.0" />
+      <point x="2503.958333333333" y="910.0" />
+      <point x="2326.833333333333" y="910.0" />
+      <point x="26.0" y="247.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.FoodServiceImpl" target="com.anton.EEAWeb.model.Food">
+      <point x="-72.0" y="-82.5" />
+      <point x="1411.3476731601725" y="1354.0" />
+      <point x="1370.916666666666" y="1354.0" />
+      <point x="1370.916666666666" y="880.0" />
+      <point x="1421.2146239177482" y="880.0" />
+      <point x="-15.75" y="258.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.InquiryServiceImpl" target="com.anton.EEAWeb.model.Inquiry">
+      <point x="-79.33333333333348" y="-71.5" />
+      <point x="695.2499999999995" y="1354.0" />
+      <point x="627.4330357142856" y="1354.0" />
+      <point x="627.4330357142856" y="890.0" />
+      <point x="956.4166666666663" y="890.0" />
+      <point x="-78.75" y="214.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.RoleService" target="com.anton.EEAWeb.model.Role">
+      <point x="0.0" y="-38.0" />
+      <point x="3220.506290584415" y="283.0" />
+      <point x="2421.020833333333" y="283.0" />
+      <point x="74.6875" y="126.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.controller.HomeController" target="com.anton.EEAWeb.model.Employee">
+      <point x="111.85714285714266" y="-192.0" />
+      <point x="1341.773809523809" y="890.0" />
+      <point x="2222.833333333333" y="890.0" />
+      <point x="-78.0" y="247.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.repository.EmployeeRepository" target="com.anton.EEAWeb.model.Employee">
+      <point x="0.0" y="-27.0" />
+      <point x="2175.333333333333" y="910.0" />
+      <point x="2274.833333333333" y="910.0" />
+      <point x="-26.0" y="247.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.controller.InquiryController" target="com.anton.EEAWeb.service.InquiryService">
+      <point x="-50.0" y="-60.5" />
+      <point x="1009.4166666666663" y="1354.0" />
+      <point x="1024.6494182900428" y="1354.0" />
+      <point x="48.5" y="60.0" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.EmployeeServiceImpl" target="com.anton.EEAWeb.repository.EmployeeRepository">
+      <point x="-116.25" y="-115.5" />
+      <point x="2244.5976731601722" y="1354.0" />
+      <point x="2232.833333333333" y="1354.0" />
+      <point x="57.5" y="27.0" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.RoleServiceImpl" target="com.anton.EEAWeb.repository.RoleRepository">
+      <point x="-75.0" y="-49.5" />
+      <point x="3161.322375541125" y="1344.0" />
+      <point x="3007.572375541125" y="1344.0" />
+      <point x="40.0" y="15.0" />
+    </edge>
+    <edge source="com.anton.EEAWeb.validator.UserValidator" target="com.anton.EEAWeb.service.EmployeeService">
+      <point x="-57.5" y="-49.5" />
+      <point x="2593.3476731601722" y="1344.0" />
+      <point x="2503.958333333333" y="1344.0" />
+      <point x="0.0" y="82.0" />
+    </edge>
+    <edge source="com.anton.EEAWeb.controller.EmployeeController" target="com.anton.EEAWeb.service.EmployeeService">
+      <point x="-86.0" y="-82.5" />
+      <point x="2828.8476731601722" y="1334.0" />
+      <point x="2580.6249999999995" y="1334.0" />
+      <point x="76.66666666666663" y="82.0" />
+    </edge>
+    <edge source="com.anton.EEAWeb.controller.FoodController" target="com.anton.EEAWeb.service.FoodService">
+      <point x="-58.25" y="-71.5" />
+      <point x="1705.541666666666" y="1354.0" />
+      <point x="1695.7744182900428" y="1354.0" />
+      <point x="43.5" y="71.0" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.EmployeeServiceDetailsImpl" target="com.anton.EEAWeb.model.Role">
+      <point x="-89.33333333333326" y="-38.5" />
+      <point x="1944.958333333333" y="1354.0" />
+      <point x="1943.1077516233763" y="1354.0" />
+      <point x="1943.1077516233763" y="283.0" />
+      <point x="2241.770833333333" y="283.0" />
+      <point x="-104.5625" y="126.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.EmployeeServiceDetailsImpl" target="com.anton.EEAWeb.repository.EmployeeRepository">
+      <point x="89.33333333333326" y="-38.5" />
+      <point x="2123.6249999999995" y="1354.0" />
+      <point x="2117.833333333333" y="1354.0" />
+      <point x="-57.5" y="27.0" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.ReservationServiceImpl" target="com.anton.EEAWeb.model.Reservation">
+      <point x="0.0" y="-60.5" />
+      <point x="201.375" y="1354.0" />
+      <point x="226.5" y="1354.0" />
+      <point x="226.5" y="900.0" />
+      <point x="473.82738095238074" y="900.0" />
+      <point x="-51.71428571428578" y="247.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.ReservationServiceImpl" target="com.anton.EEAWeb.service.ReservationService">
+      <point x="94.33333333333348" y="-60.5" />
+      <point x="295.7083333333335" y="1354.0" />
+      <point x="300.89136904761904" y="1354.0" />
+      <point x="-57.75" y="49.0" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.FoodService" target="com.anton.EEAWeb.model.Food">
+      <point x="0.0" y="-71.0" />
+      <point x="1652.2744182900428" y="880.0" />
+      <point x="1484.2146239177482" y="880.0" />
+      <point x="47.25" y="258.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.RoleServiceImpl" target="com.anton.EEAWeb.model.Role">
+      <point x="75.0" y="-49.5" />
+      <point x="3311.322375541125" y="1354.0" />
+      <point x="3368.8476731601722" y="1354.0" />
+      <point x="3368.8476731601722" y="273.0" />
+      <point x="2450.895833333333" y="273.0" />
+      <point x="104.5625" y="126.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.repository.ReservationRepository" target="com.anton.EEAWeb.model.Reservation">
+      <point x="0.0" y="-15.0" />
+      <point x="108.0" y="890.0" />
+      <point x="447.9702380952381" y="890.0" />
+      <point x="-77.57142857142844" y="247.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.validator.UserValidator" target="com.anton.EEAWeb.model.Employee">
+      <point x="57.5" y="-49.5" />
+      <point x="2708.3476731601722" y="1344.0" />
+      <point x="2655.024418290043" y="1344.0" />
+      <point x="2655.024418290043" y="900.0" />
+      <point x="2352.833333333333" y="900.0" />
+      <point x="52.0" y="247.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.controller.HomeController" target="com.anton.EEAWeb.model.Reservation">
+      <point x="-111.85714285714289" y="-192.0" />
+      <point x="1118.0595238095234" y="880.0" />
+      <point x="577.2559523809523" y="880.0" />
+      <point x="51.71428571428578" y="247.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.EmployeeServiceImpl" target="com.anton.EEAWeb.repository.RoleRepository">
+      <point x="116.25" y="-115.5" />
+      <point x="2477.0976731601722" y="1354.0" />
+      <point x="2927.572375541125" y="1354.0" />
+      <point x="-40.0" y="15.0" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.EmployeeServiceDetailsImpl" target="com.anton.EEAWeb.model.Employee">
+      <point x="0.0" y="-38.5" />
+      <point x="2034.291666666666" y="1354.0" />
+      <point x="2007.1830357142853" y="1354.0" />
+      <point x="2007.1830357142853" y="900.0" />
+      <point x="2248.833333333333" y="900.0" />
+      <point x="-52.0" y="247.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.InquiryServiceImpl" target="com.anton.EEAWeb.service.InquiryService">
+      <point x="79.33333333333348" y="-71.5" />
+      <point x="853.9166666666665" y="1354.0" />
+      <point x="927.6494182900428" y="1354.0" />
+      <point x="-48.5" y="60.0" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.InquiryServiceImpl" target="com.anton.EEAWeb.repository.InquiryRepository">
+      <point x="0.0" y="-71.5" />
+      <point x="774.583333333333" y="1354.0" />
+      <point x="767.1494182900428" y="1354.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.anton.EEAWeb.controller.InquiryController" target="com.anton.EEAWeb.model.Inquiry">
+      <point x="50.0" y="-60.5" />
+      <point x="1109.4166666666663" y="1354.0" />
+      <point x="1088.9166666666663" y="1354.0" />
+      <point x="1088.9166666666663" y="910.0" />
+      <point x="1050.9166666666663" y="910.0" />
+      <point x="15.75" y="214.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.repository.InquiryRepository" target="com.anton.EEAWeb.model.Inquiry">
+      <point x="0.0" y="-15.0" />
+      <point x="767.1494182900428" y="900.0" />
+      <point x="987.9166666666663" y="900.0" />
+      <point x="-47.25" y="214.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.model.Employee" target="com.anton.EEAWeb.model.Role">
+      <point x="-68.25" y="-247.5" />
+      <point x="2232.583333333333" y="293.0" />
+      <point x="2271.645833333333" y="293.0" />
+      <point x="-74.6875" y="126.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.controller.EmployeeController" target="com.anton.EEAWeb.model.Employee">
+      <point x="0.0" y="-82.5" />
+      <point x="2914.8476731601722" y="1344.0" />
+      <point x="2856.274418290043" y="1344.0" />
+      <point x="2856.274418290043" y="890.0" />
+      <point x="2378.833333333333" y="890.0" />
+      <point x="78.0" y="247.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.ReservationService" target="com.anton.EEAWeb.model.Reservation">
+      <point x="0.0" y="-49.0" />
+      <point x="358.64136904761904" y="910.0" />
+      <point x="499.68452380952385" y="910.0" />
+      <point x="-25.857142857142662" y="247.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.InquiryService" target="com.anton.EEAWeb.model.Inquiry">
+      <point x="0.0" y="-60.0" />
+      <point x="976.1494182900428" y="910.0" />
+      <point x="1019.4166666666663" y="910.0" />
+      <point x="-15.75" y="214.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.EmployeeServiceImpl" target="com.anton.EEAWeb.model.Employee">
+      <point x="-38.75" y="-115.5" />
+      <point x="2322.0976731601722" y="1354.0" />
+      <point x="2300.833333333333" y="1354.0" />
+      <point x="0.0" y="247.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.controller.ReservationController" target="com.anton.EEAWeb.service.ReservationService">
+      <point x="-88.66666666666652" y="-82.5" />
+      <point x="408.25" y="1354.0" />
+      <point x="416.39136904761904" y="1354.0" />
+      <point x="57.75" y="49.0" />
+    </edge>
+    <edge source="com.anton.EEAWeb.repository.RoleRepository" target="com.anton.EEAWeb.model.Role">
+      <point x="0.0" y="-15.0" />
+      <point x="2967.572375541125" y="293.0" />
+      <point x="2391.145833333333" y="293.0" />
+      <point x="44.8125" y="126.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.ReservationServiceImpl" target="com.anton.EEAWeb.repository.ReservationRepository">
+      <point x="-94.33333333333348" y="-60.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.anton.EEAWeb.model.Role" target="com.anton.EEAWeb.model.Employee">
+      <point x="-14.9375" y="126.5" />
+      <point x="2331.395833333333" y="293.0" />
+      <point x="2323.583333333333" y="293.0" />
+      <point x="22.75" y="-247.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.FoodServiceImpl" target="com.anton.EEAWeb.repository.FoodRepository">
+      <point x="0.0" y="-82.5" />
+      <point x="1483.3476731601725" y="1354.0" />
+      <point x="1461.416666666666" y="1354.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.FoodServiceImpl" target="com.anton.EEAWeb.service.FoodService">
+      <point x="72.0" y="-82.5" />
+      <point x="1555.3476731601725" y="1354.0" />
+      <point x="1608.7744182900428" y="1354.0" />
+      <point x="-43.5" y="71.0" />
+    </edge>
+    <edge source="com.anton.EEAWeb.controller.EmployeeController" target="com.anton.EEAWeb.service.RoleService">
+      <point x="86.0" y="-82.5" />
+      <point x="3000.8476731601722" y="1354.0" />
+      <point x="3164.256290584415" y="1354.0" />
+      <point x="-56.25" y="38.0" />
+    </edge>
+    <edge source="com.anton.EEAWeb.repository.FoodRepository" target="com.anton.EEAWeb.model.Food">
+      <point x="0.0" y="-15.0" />
+      <point x="1461.416666666666" y="880.0" />
+      <point x="1452.7146239177482" y="880.0" />
+      <point x="15.75" y="258.5" />
+    </edge>
+    <edge source="com.anton.EEAWeb.service.EmployeeServiceImpl" target="com.anton.EEAWeb.service.EmployeeService">
+      <point x="38.75" y="-115.5" />
+      <point x="2399.5976731601722" y="1354.0" />
+      <point x="2427.291666666666" y="1354.0" />
+      <point x="-76.66666666666663" y="82.0" />
+    </edge>
+    <edge source="com.anton.EEAWeb.controller.ReservationController" target="com.anton.EEAWeb.model.Reservation">
+      <point x="88.66666666666652" y="-82.5" />
+      <point x="585.583333333333" y="1354.0" />
+      <point x="579.1312905844152" y="1354.0" />
+      <point x="579.1312905844152" y="910.0" />
+      <point x="551.3988095238092" y="910.0" />
+      <point x="25.857142857142662" y="247.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="500.0" y="758.5" />
+  <SelectedNodes>
+    <node>com.anton.EEAWeb.model.Reservation</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
